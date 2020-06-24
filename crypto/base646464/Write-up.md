@@ -30,3 +30,5 @@ For that purpose I start coding in Python3 and got this code to work:
 So, basically the program opens the cipher.txt file, reads the string and starts decoding it in the loop. After 25 loops the string is displayed to the terminal.
 
 ![Code Testing](https://github.com/Yukjed/redpwn_2020CTF/blob/master/crypto/base646464/pythonBase64.png)
+
+
