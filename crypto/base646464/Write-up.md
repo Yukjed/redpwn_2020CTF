@@ -1,15 +1,15 @@
 Solution/Flag: flag{l00ks_l1ke_a_l0t_of_64s}
 
 
-The challenge's title often provides some aid or direction to solve the problem. Here, the title repeats the number 64 three times, which can be a hint to decode a Base64 string tree (or a couple of) times.
+The challenge's title often provides some aid or direction to solve the problem. Here, the title repeats the number 64 three times, which can be a hint to decode a Base64 string three (or a couple of) times.
 
 The problem also gives two files: generate.js and cipher.txt.
-generate.js is an ASCII text file, with the Javascript extension.
-cipher.txt is an ASCII text, with very long lines, with no line terminators file.
-
-![generate.js](https://github.com/Yukjed/redpwn_2020CTF/blob/master/crypto/base646464/jsBase64Encoding.png)
+Generate.js is an ASCII text file, with the Javascript extension.
+Cipher.txt is an ASCII text, with very long lines, with no line terminators file.
 
 Let's take a look of the file and see what it does. Finding the purpose of the program will be the key to finding the decryption process.
+
+![generate.js](https://github.com/Yukjed/redpwn_2020CTF/blob/master/crypto/base646464/jsBase64Encoding.png)
 
 First, there's a constant, but that will initialize a buffer so the string that the program will read later on is treated as a base64 string (or number). This is a function that will take a string and encode it with as base64.
 
