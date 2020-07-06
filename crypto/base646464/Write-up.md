@@ -32,3 +32,7 @@ So, basically the program opens the cipher.txt file, reads the string and starts
 ![Code Testing](https://github.com/Yukjed/redpwn_2020CTF/blob/master/crypto/base646464/pythonBase64.png)
 
 
+
+
+
+Já podem parar de fingir que estão a ler o relatório: MangCTF{Na0_ign0rem_0s_v0ss0s_4m1gos}
